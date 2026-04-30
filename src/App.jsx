@@ -1667,7 +1667,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.6rem] border border-white/10 bg-white/5 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.6rem] border border-white/10 ${OUTER_GRADIENT} p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D9A21B]/20 bg-white/5 shadow-[0_0_24px_rgba(217,162,27,0.14)] backdrop-blur-md">
                       <MessageCircle
